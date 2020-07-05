@@ -12,7 +12,7 @@ public class BaseController {
 	private Logger log = LoggerFactory.getLogger(this.getClass());
 	
 	
-	@GetMapping("/say/{name}")
+	@GetMapping("/Say/{name}")
 	public String sayHelloStr(@PathVariable String name) {
 		
 		log.info("Name received (GIT) : {}", name);
