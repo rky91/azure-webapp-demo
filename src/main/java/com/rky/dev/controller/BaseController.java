@@ -16,6 +16,6 @@ public class BaseController {
 	public String sayHelloStr(@PathVariable String name) {
 		
 		log.info("Name received (GIT) : {}", name);
-		return "Hello - "+name;
+		return "Hello from GIT:- "+name;
 	}
 }
